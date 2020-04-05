@@ -24,7 +24,7 @@
     "concurrently": "^4.0.1",
     "cors": "^2.8.5",
     "express": "^4.13.3",
-    "mongoose": "^4.1.2",
+    "mongoose": "^5.7.5",
     "react": "^16.13.0",
     "react-chartjs-2": "^2.9.0",
     "react-dom": "^16.13.0",
