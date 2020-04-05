@@ -1,0 +1,50 @@
+{
+  "name": "ninja",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Integrated code",
+  "main": "Server.js",
+  "scripts": {
+    "client-install": "npm install --prefix client",
+    "start": "react-scripts start",
+    "server": "nodemon server.js",
+    "client": "npm start",
+    "dev": "concurrently \"npm run client\" \"npm run server\""
+  },
+  "author": "Swati Amlani",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3",
+    "mongoose": "^4.1.2",
+    "concurrently": "^4.0.1",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "axios": "^0.19.2",
+    "canvasjs": "^1.8.3",
+    "chart.js": "^2.9.3",
+    "react": "^16.13.0",
+    "react-chartjs-2": "^2.9.0",
+    "react-dom": "^16.13.0",
+    "react-minimal-pie-chart": "^7.0.0",
+    "react-scripts": "3.4.0",
+    "react-svg-piechart": "^2.4.1",
+    "shards-react": "^1.0.3"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
