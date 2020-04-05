@@ -92,7 +92,7 @@ class FetchData extends Component {
         >
           <option value="ps"> Please select</option>
           <option value="dev"> developer</option>
-          <option value="t1">Tech lead</option>
+          <option value="techlead">Tech lead</option>
         </select>
         <br></br>
         <br></br>

@@ -4,7 +4,7 @@ const mongoose    =   require("mongoose");
 //var MongoClient = require('mongodb').MongoClient;
 
 // MongoDB Databse url
-var mongoDatabase = 'mongodb://localhost:27017/tt';
+var mongoDatabase = 'mongodb://localhost:27017/ninjateam3db';
  
 // Connect Mongodb Database
 mongoose.connect(mongoDatabase, { useNewUrlParser: true }).then(
