@@ -26,7 +26,7 @@ class FetchData extends Component {
   handleRoleChange(event) {
     if (event.target.value !== "ps") {
       // uncomment below line if you want to try the sameple data without db. chnage the port as per your server (uses countries.json inside public folder)
-      // axios.get("http://localhost:5000/countries.json").then((Response) => {
+      
        //axios.get("http://localhost:3000/" + event.target.value +".json").then((Response) => {
         axios.get('http://localhost:4000/Detail/' + event.target.value).then((Response) => {
         let data = [];
