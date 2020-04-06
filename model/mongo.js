@@ -4,7 +4,11 @@ const mongoose    =   require("mongoose");
 //var MongoClient = require('mongodb').MongoClient;
 
 // MongoDB Databse url
-var mongoDatabase = 'mongodb://localhost:27017/ninjateam3db';
+//Use below URL while connecting to local mongodb shell
+//var mongoDatabase = 'mongodb://localhost:27017/ninjateam3db';
+
+//Use below URL while connecting to local mongodb shell
+var mongoDatabase = 'mongodb+srv://ninjateam3:Tcs2020@clusters-32czz.gcp.mongodb.net/ninjateam3db?retryWrites=true&w=majority';
  
 // Connect Mongodb Database
 mongoose.connect(mongoDatabase, { useNewUrlParser: true }).then(
